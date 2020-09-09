@@ -1,0 +1,48 @@
+body{
+    /* display: grid;
+    place-items: center; */
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("img/tech.jpg")center/cover no-repeat;
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.counter-box{
+    flex: 0 0 70%;
+    text-align: center;
+    border: 3px solid rgb(15, 15, 68);
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 10px black;
+}
+.counter{
+    font-size: 6rem;
+}
+.btn{
+    background: #fff;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: .5rem;
+    margin: .5rem .25rem;
+    border: 3px solid #f15025;
+    box-shadow: 0px 5px #001221;
+    outline: none;
+}
+#addCountBtn:hover{
+    background-color: #4caf50;
+    color: white;
+}
+#lowerCountBtn:hover{
+    background-color: red;
+    color: white;
+}
+
+.btn:active{
+    opacity: .5;
+}
